@@ -1,0 +1,22 @@
+.active {
+  color: #2ae8e4;
+  scroll-behavior: smooth;
+}
+
+.cen {
+  position: absolute;
+  top: 70%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Maitree:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Maitree", serif;
+  font-weight: 300;
+}
+
+/* *{
+  border: 1px solid black;
+} */
