@@ -9,9 +9,7 @@ import diagnosis from "../assets/img/dia.jpg";
 import Plans from "../assets/img/plans.jpg";
 import { Link } from "react-router-dom";
 
-import AOS from "aos";
-import "aos/dist/aos.css";
-AOS.init();
+
 
 export default function home() {
   return (

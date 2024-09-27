@@ -6,6 +6,10 @@ import Header from "./components/Header";
 import Intutions from "./components/Intutions";
 import Dengue from "./components/Dengue";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
+
 function App() {
   return (
     <BrowserRouter>
