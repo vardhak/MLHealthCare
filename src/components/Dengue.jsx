@@ -1,8 +1,12 @@
 import React from "react";
 import dengue from "../assets/img/dengue.jpg";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 export default function Dengue() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section className="pt-[80px]">
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-x-10 w-[90%] mx-auto py-10">

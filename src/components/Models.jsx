@@ -3,8 +3,12 @@ import dibetes from "../assets/img/dibetes.jpg";
 import cancer from "../assets/img/cancer.jpg";
 import dengue from "../assets/img/dengue.jpg";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 export default function Models() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       {/* models section */}

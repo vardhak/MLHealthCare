@@ -8,8 +8,7 @@ import dengue from "../assets/img/dengue.jpg";
 import diagnosis from "../assets/img/dia.jpg";
 import Plans from "../assets/img/plans.jpg";
 import { Link } from "react-router-dom";
-
-
+import { useEffect } from "react";
 
 export default function home() {
   return (

@@ -3,8 +3,12 @@ import ai from "../assets/vid/ai.mp4";
 import aibrain from "../assets/img/aibrain.jpg";
 import diagnosis from "../assets/img/dia.jpg";
 import Plans from "../assets/img/plans.jpg";
+import { useEffect } from "react";
 
 export default function Intutions() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section className=" bg-black text-white pt-[100px]">
       <div className="flex flex-col justify-center items-start w-[90%] mx-auto h-[250px]">
