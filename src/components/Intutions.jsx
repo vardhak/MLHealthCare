@@ -1,5 +1,5 @@
 import React from "react";
-import ai from "../assets/vid/ai.mp4";
+import ai from "../assets/vid/aiC.mp4";
 import aibrain from "../assets/img/aibrain.jpg";
 import diagnosis from "../assets/img/dia.jpg";
 import Plans from "../assets/img/plans.jpg";
