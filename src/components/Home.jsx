@@ -1,6 +1,6 @@
 import React from "react";
 import bg from "../assets/vid/bgC.mp4";
-import ai from "../assets/vid/ai.mp4";
+import ai from "../assets/vid/aiC.mp4";
 import dibetes from "../assets/img/dibetes.jpg";
 import aibrain from "../assets/img/aibrain.jpg";
 import cancer from "../assets/img/cancer.jpg";
