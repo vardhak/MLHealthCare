@@ -1,5 +1,5 @@
 import React from "react";
-import bg from "../assets/vid/bg.mp4";
+import bg from "../assets/vid/bgC.mp4";
 import ai from "../assets/vid/ai.mp4";
 import dibetes from "../assets/img/dibetes.jpg";
 import aibrain from "../assets/img/aibrain.jpg";

@@ -16,7 +16,7 @@ export default function Dengue() {
             data-aos-duration="1000"
             src={dengue}
             alt=""
-            className="h-[90%] w-[80%] rounded-[100%] object-cover"
+            className="h-[400px] w-[80%] rounded-[100%] object-cover"
           />
         </div>
         <div data-aos="fade-left" data-aos-duration="1000">
@@ -123,14 +123,3 @@ export default function Dengue() {
   );
 }
 
-// <div className="grid grid-cols-1 sm:grid-cols-3 sm:gap-x-20 gap-8 bg-black min-h-[60vh]">
-//   <div className="text-white pl-[20px]">
-//     <h1 className="text-[4rem] capitalize">what is dengue ?</h1>
-//   </div>
-//   <div className="col-span-2 bg-white h-[75%] self-center sm:mr-[50px] p-8">
-//     <p className="text-xl">
-//       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste nulla
-//       deleniti ab itaque ad necessitatibus, magnam qui maiores saepe iure.
-//     </p>
-//   </div>
-// </div>

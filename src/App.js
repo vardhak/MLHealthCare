@@ -4,6 +4,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Models from "./components/Models";
 import Header from "./components/Header";
 import Intutions from "./components/Intutions";
+import Dibeties from "./components/Dibeties";
+import Cancer from "./components/Cancer";
 import Dengue from "./components/Dengue";
 
 import AOS from "aos";
@@ -19,6 +21,8 @@ function App() {
         <Route path="/models" element={<Models />} />
         <Route path="/intutions" element={<Intutions />} />
         <Route path="/models/dengue" element={<Dengue />} />
+        <Route path="/models/dibeties" element={<Dibeties />} />
+        <Route path="/models/cancer" element={<Cancer />} />
       </Routes>
     </BrowserRouter>
   );
